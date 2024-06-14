@@ -394,7 +394,8 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  margin-top: 20px; }
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -478,8 +479,8 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  margin-right: -10px;
+  margin-left: -10px; }
 
 .no-gutters {
   margin-right: 0;
@@ -9089,7 +9090,7 @@ textarea.form-control {
     font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 06em 5em 5em 6em;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9105,6 +9106,7 @@ textarea.form-control {
   background: #3c312e; }
 
 .ftco-footer {
+  
   font-size: 16px;
   background: #000000;
   padding: 7em 0;
@@ -9175,13 +9177,17 @@ textarea.form-control {
   width: 100px; }
   .media .ftco-icon span {
     color: #ffbd39; }
-
+    @media (max-width: 767.98px) {
+      .ftco-footer {
+          padding: 4em 0; /* Adjust padding for smaller screens */
+      }
+  }
 #map {
   width: 100%; }
   @media (max-width: 767.98px) {
     #map {
       height: 300px; } }
-
+    
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(255, 189, 57, 0.4); }
@@ -9746,26 +9752,27 @@ textarea.form-control {
 }
 .skill-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Ensure responsiveness */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Ensure responsiveness */
   gap: 20px; /* Space between skill items */
 }
 
 .skill-item {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between logo and skill name */
+  gap: 2px; /* Space between logo and skill name */
+  margin-top: 6px;
 }
 
 .skill-logo {
-  width: 40px; /* Adjust size of the logos */
-  height: 40px; /* Adjust height of the logos */
+  width: 45px; /* Adjust size of the logos */
+  height: 45px; /* Adjust height of the logos */
 }
 
 .skill-item span {
   font-size: 1.2em; /* Adjust font size for skill names */
 }
 .Achievements {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .Achievements .testimonials-title {
@@ -9920,6 +9927,9 @@ textarea.form-control {
 .icon img {
   width: 80px; /* Adjust the width as needed */
   height: 80px; /* Adjust the height as needed */
+}
+.button-container {
+  margin-bottom: 50px; /* Adjust the margin as needed */
 }
 
 /* Responsive design */
