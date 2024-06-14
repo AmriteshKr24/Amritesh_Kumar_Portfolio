@@ -9432,7 +9432,9 @@ textarea.form-control {
     border-radius: 50%; }
     .contact-section .box .icon span {
       color: #ffbd39;
-      font-size: 30px; }
+      font-size: 30px;
+      width: 100px;
+      height: 100px; }
   .contact-section .box h3 {
     font-size: 17px;
     font-weight: 500;
@@ -9914,6 +9916,10 @@ textarea.form-control {
 .mooc-link:hover {
   text-decoration: underline;
  
+}
+.icon img {
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
 }
 
 /* Responsive design */
